@@ -1,0 +1,30 @@
+# simple cmake
+
+1. without cmake
+
+```cpp
+// main.cpp
+#include <iostream>
+
+int main() {
+  std::cout << "hello world\n";
+}
+```
+
+`g++ -o main main.cpp`
+
+2. with cmake
+
+```bash
+
+mkdir build && cd build
+
+cmake ..
+
+make
+
+```
+
+3. library target
+
+
