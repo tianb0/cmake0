@@ -27,4 +27,19 @@ make
 
 3. library target
 
+4. a project example
 
+credited to https://github.com/Yousif-CS/concurrency
+
+https://www.youtube.com/live/AJRGU_XgVMQ?feature=share
+
+install
+
+```
+cmake .. -DCMAKE_INSTALL_PREFIX=(REPLACE_WITH_YOUR_ABSOLUTE_PATH)
+```
+
+to use in another project
+```
+cmake .. -DCMAKE_PREFIX_PATH=(REPLACE_WITH_THE_ABOVE_PATH)
+```

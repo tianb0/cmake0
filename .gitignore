@@ -2,4 +2,5 @@
 **/build
 **/compile_commands.json
 **/.cache
-
+# temp dir for testing installation
+**/root
